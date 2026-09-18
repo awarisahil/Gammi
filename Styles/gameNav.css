@@ -1,0 +1,62 @@
+.vertical_nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-color);
+    height:10vh;
+  }
+  .logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:2rem;
+    text-decoration: none;
+  }
+  .logoName img{
+    margin-right:1rem;
+  }
+  
+  .logo span{
+      font-family:hurricane;
+      font-size: 2rem;
+      color:var( --color-dark);
+  }
+  .gameName span{
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 2rem;
+      margin-right:2rem;
+      text-decoration: underline;
+      color:var( --color-dark);
+  }
+  .theme{
+      background:grey;
+      position: relative;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding: .4rem;
+      height: 2rem;
+      margin:0 2rem .1rem 0; 
+      width:5rem;
+      gap:.8rem;
+      cursor: pointer;
+      border-radius: .4rem;
+  }
+  .theme::before{
+      content: "";
+      position: absolute;
+      width: 2.5rem;
+      height:2.5rem;
+      background-color: var(--switch-circle-bg);
+      border-radius: .4rem;
+      z-index: 0;
+      left:.23rem;
+      transform: translate(var(--switch-square-pos));
+  }
+  
+  .theme img{
+      z-index: 5;
+      height:100%;
+      display:flex;
+      align-items: center;
+  }

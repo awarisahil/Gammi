@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.footer{
+    height: 40vh;
+    padding: 2rem 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    color:#fff;
+    font-weight: lighter;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.social img{
+    border:none;
+}
+/* .footer form{
+    width: 25%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+
+.footer form h1{
+    color: #fff;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
+
+.footer form input{
+    width: 40%;
+    height: 1rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    margin: .5rem;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+
+ .footer form input::placeholder
+{
+    color: rgb(245, 239, 239);
+}
+.footer form textarea::placeholder{
+  color: rgb(245, 239, 239);
+} 
+.footer form #lastName,
+.footer form #mobile{
+    margin-left: 20px;
+}
+.footer form h4{
+    color: #fff;
+    font-weight: 300;
+    width: 100vw;
+    margin-top: .5rem;
+}
+
+.footer form textarea{
+    background: none;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 1rem .1rem;
+    outline: none;
+    width: 45vh;
+    display: block;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+
+.footer form #button{
+    border: none;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 10vw;
+    height:6vh;
+    padding: 0;
+    margin-left: 1rem;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.footer form #button:hover{
+    opacity: 0.7;
+} */
+.footer h3{
+  font-size: 1.2rem;
+  display:inline-block;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #f16A70,#f16A70);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 50% 2px;
+  transition: background-size .5s ease;
+  color:beige;
+  margin-bottom: .4rem;
+}
+.footer h3::after{
+   border-bottom: 2px solid #3a07b1;
+}
+
+.flist li{
+    margin:.3rem 0;
+    opacity: .8;
+    font-family: cursive;
+    color: rgb(179, 177, 177);
+}
+.query{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    flex-direction: column;
+    transform: translateX(-3rem);
+}
+.footer textarea{
+    border-radius: .2rem;
+    width:20vw;
+    height:8vh;
+    border:none;
+    margin-bottom: .3rem;
+}
+.symbol{
+    width:25vw;
+    margin-bottom:4rem;
+}
+.symbol a{
+    margin-bottom: 1rem;
+}
+.symbol .describe{
+    margin-left: 1.5rem;
+}
+.contact{
+    width:15vw;
+}
+.social a{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+}
+.social img{
+    margin-right: .4rem;
+}
+.footer-titel{
+    top:0;
+}

@@ -1,0 +1,56 @@
+:root[data-theme="light"]{
+    --background-color:#f6f6f9;
+    --bg-color:hsl(249,3%,7%);
+    --color-light: rgba(132,139,200,0.18);
+    --color-white:#fff;
+    --color-dark:#1b1b1d;
+    --switch-bg:#f5f5f6;
+    --switch-circle-bg:#FFD371;
+    --switch-circle-pos:0rem; 
+    --switch-square-pos:0rem;
+    --muted-text:#77757E;
+    --icon-sun:#eec76c;
+    --icon-moon:var(var(--muted-text));  
+    --box-shadow:0px 5px 10px 2px rgba(134, 163, 163, 0.788);
+    --box-hover:0px 10px 20px 4px rgba(134, 163, 163, 0.788);
+}
+
+:root[data-theme="dark"]{
+    --background-color:hsl(240, 3%, 7%);
+    --bg-color:hsl(0, 2%, 90%);
+    --color-white:#202528;
+    --muted-text:#77757e;
+    --color-dark:#edeffd;
+    --switch-bg:#2D2C35;
+    --switch-circle-bg:#7190FF;
+    --switch-circle-pos:2rem;
+    --switch-square-pos:2.8rem;
+    --icon-sun:var(var(--muted-text));
+    --icon-moon:#dce3ff;
+    --color-dark-variant:#a3bdcc;
+    --color-light:rgba(0,0,0,0.4);
+    --box-shadow: 0px 2px 4px 2px rgba(0,255,255,0.7);
+    --box-hover:0px 5px 10px 4px rgba(0,255,255,0.7);
+}
+
+:root{
+    --first-color: #12192c;
+    --second-color: #f6A623;
+    --white-color: #EDEDED;
+  
+    --small-font-size: 0.875rem;
+    --nav-width:56px;
+    --font-bold:700;
+  
+    @media screen and (min-width: 768px){
+        --small-font-size:0.938rem
+    }   
+  }
+  @font-face {
+    font-family: hurricane;
+    src: url(../fonts/Hurricane-Regular.ttf);
+  }
+  @font-face {
+    font-family: montserrat;
+    src: url(../fonts/MontserratAlternates-Regular.otf);
+  }

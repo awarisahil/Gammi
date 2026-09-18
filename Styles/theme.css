@@ -1,0 +1,114 @@
+
+.theme{
+    background:var(--switch-bg);
+    position: relative;
+    display:flex;
+    align-items: center;
+    padding: .4rem;
+    height: 2rem;
+    width:4rem;
+    gap:.8rem;
+    margin-top:1.7rem;
+    cursor: pointer;
+    border-radius: 4rem;
+}
+.theme::before{
+    content: "";
+    position: absolute;
+    width: 2.1rem;
+    height:2.22rem;
+    background-color: var(--switch-circle-bg);
+    border-radius: 50%;
+    z-index: 0;
+    left:0;
+    transform: translate(var(--switch-circle-pos));
+}
+
+.theme img{
+    z-index: 5;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+/*         ####################### Vertical Nav ########################       */
+.vertical_nav{
+    height:4rem;
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: #12192c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  padding-left:0.5rem;
+  margin-left: .5rem;
+  text-decoration: none;
+}
+
+.logo img{
+  margin-right: 1rem;
+}
+
+.logo span{
+    color:#fff;
+    font-weight: var(--font-bold);
+    font-family :hurricane;
+    font-size: 48px;
+  }
+.vertical_nav .toggle{
+    display:none;
+}
+.nav{
+    display:flex;
+    margin-left: 25vw;
+    z-index:10;
+}
+.nav_link{
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color:var(--white-color);
+    transition: all .3ms ease-in-out;
+    color:white;
+    text-decoration: none;
+}
+
+.nav_link:hover{
+    background-color: var(--second-color);
+    color:var(--first-color);
+}
+.nav_link img{
+    font-size: 1.5rem;
+    margin-right: .5rem;
+    color:#fff;
+}
+.nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav .nav_text{
+    font-weight:400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+.logOut{
+    margin:1.6rem 2rem 1rem 1rem;
+
+} 
+.logOut span{
+    display: none;
+}
+.logOut img:hover{
+    background-color:red;
+    border-radius: 1rem;
+}
